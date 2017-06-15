@@ -1,1 +1,1 @@
-# voa-branding-guide
+# VOA Digital Branding Guide
