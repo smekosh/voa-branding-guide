@@ -33,12 +33,15 @@ html {
 }
 
 body {
+	background: #fcfcfc;
 	color: #333;
 	font-family: 'Open Sans', sans-serif;
 	font-style: normal;
 	font-weight: 400;
 	line-height: 1.35;
 }
+
+img { display: block; }
 
 h1, h2, h3, h4 { font-weight: 800; }
 
@@ -47,10 +50,16 @@ h2 { font-size: 1.6rem; margin:  .8rem 0; }
 h3 { font-size: 1.2rem; margin:  .6rem 0; }
 h4 { font-size: 1rem;   margin:  .5rem 0; }
 
+p { font-size: 1rem; margin: 0 0 1rem 0; }
+
 .guide {
 	margin: 0 1rem;
 	max-width: calc(100% - 2rem);
 	width: 100%;
+}
+
+section {
+	margin-bottom: 4rem;
 }
 
 .grid {
@@ -59,16 +68,43 @@ h4 { font-size: 1rem;   margin:  .5rem 0; }
 	justify-content: space-between;
 }
 
-.colors-box {
-	flex-grow: 1;
+.page-title,
+.instructions {
+	padding: 0 .5rem;
+}
+
+.grid-box {
+	flex: 1 1 0;
+	padding: 0 .5rem;
+}
+
+.grid-box > p {
+	margin: 0 0 .25rem 0;
 }
 
 .color {
-	xxxxdisplay: flex;
-	xxxxflex-grow: 1;
-	height: 3rem;
-	width: calc(100% - 1rem);
+	height: 4rem;
+	margin-bottom: .25rem;
 }
+
+.grid-box > p > .label {
+	color: #999;
+	display: inline-block;
+	text-transform: uppercase;
+	width: 3rem;
+}
+
+.subtle {
+	color: #999;
+	font-size: .8rem;
+	margin-top: .2rem;
+}
+
+.logos img {
+	margin: 0 auto;
+}
+
+
 
 
 
@@ -82,4 +118,14 @@ h4 { font-size: 1rem;   margin:  .5rem 0; }
 	.grid {
 		flex-direction: row;
 	}
+}
+
+
+
+
+
+@media print {
+	
+	body { background: none; }
+	
 }
