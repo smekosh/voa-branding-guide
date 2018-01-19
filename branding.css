@@ -108,7 +108,7 @@ p {
 
 section,
 .page-title {
-  margin-bottom: 4rem; }
+  margin-bottom: 3rem; }
 
 .grid {
   display: flex;
@@ -121,6 +121,7 @@ section,
 
 .grid-box {
   flex: 1 1 0;
+  margin-bottom: 1rem;
   padding: 0 .5rem; }
 
 .grid-box > p {
@@ -136,12 +137,7 @@ section,
   text-transform: uppercase;
   width: 3rem; }
 
-.subtle {
-  color: #999;
-  font-size: .8rem;
-  margin-top: .2rem; }
-
-.logos img {
+.logos img.logo-tile {
   height: auto;
   margin: 0 auto;
   width: 80%; }
@@ -151,14 +147,47 @@ section,
   line-height: 2.25rem; }
 
 .download-button > a {
-  background: #eee;
-  color: #1330bf;
+  background: #fff;
+  border: 2px solid #1330bf;
   border-radius: .25rem;
+  color: #1330bf;
   padding: .25rem .5rem;
   text-decoration: none; }
 
 .download-button > a:hover {
   background: #1330bf;
+  color: #fff; }
+
+.download-options {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: .75rem; }
+
+.download-options > li {
+  xxxxmargin: 0 .25rem; }
+
+.download-label {
+  display: inline-block; }
+
+.mini-download-button {
+  display: inline-block;
+  font-size: .8rem;
+  xxxxtext-transform: uppercase; }
+
+.mini-download-button > a {
+  background: #fff;
+  color: #1330bf;
+  border: 1px solid #ddd;
+  border-radius: .25rem;
+  padding: .15rem .5rem .25rem .5rem;
+  text-decoration: none; }
+
+.mini-download-button > a:hover {
+  background: #1330bf;
+  border: 1px solid #1330bf;
   color: #fff; }
 
 .page-footer {
@@ -170,7 +199,8 @@ section,
 
 @media (min-width: 450px) {
   .download-button {
-    display: inline-block; } }
+    display: inline-block;
+    margin-left: 2rem; } }
 @media (min-width: 600px) {
   .guide {
     margin: 0 auto;
@@ -189,7 +219,7 @@ section,
     margin-bottom: 0; }
 
   section {
-    margin-bottom: 1.5rem; }
+    margin-bottom: 1.25rem; }
 
   .page-title {
     margin-bottom: 2.5rem; }
@@ -206,11 +236,11 @@ section,
     margin: 0; }
 
   h3 {
-    font-size: 1rem;
+    font-size: .9rem;
     margin: 0 0 .25rem 0; }
 
   h4 {
-    font-size: .9rem;
+    font-size: .8rem;
     margin: 0 0 .2rem 0; }
 
   p {
@@ -219,6 +249,9 @@ section,
 
   .download-button,
   .download-text {
+    display: none; }
+
+  .download-options {
     display: none; }
 
   .print-only {
