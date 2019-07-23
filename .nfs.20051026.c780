@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta content="IE=edge" http-equiv="X-UA-Compatible" />
+	<link type="image/x-icon" rel="icon" href="favicon.ico" />
+	
+	<title>VOA Brand Guidelines</title>
+	
+	<link type="text/css" rel="stylesheet" href="branding.css" media="all" />
+	
+	<link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,800" /> 
+	<script type="text/javascript" src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
+</head>
+
+<body>
+	
+	<header class="page-title">
+		<h1>VOA Brand Guidelines <span class="download-button printable-pdf"><a href="assets/VOA_Brand_Guidelines_20180119.pdf" download="assets/VOA_Brand_Guidelines_20180119.pdf">Download Printable PDF</a></span></h1>
+		<p class="print-only print-page-url">This guide can be found at <strong>https://projects.voanews.com/branding</strong></p>
+		<p class="contact-us">Contact <a href="mailto:branding@voanews.com">branding@voanews.com</a> if you have any questions about VOA logo usage or these guidelines.</p>
+	</header>
+	
+	<main class="guide">
+		
+		<section class="logos">
+			
+			<header class="instructions">
+				<h2>Official VOA Logo</h2>
+				<p>The blue and white VOA logos are preferred, but these five logo treatments are always acceptable.</p>
+			</header>
+			
+			<div class="grid">
+				
+				<div class="grid-box">
+					<h3>Blue</h3>
+					<div style="border: 1px solid transparent;"><a href="downloads/voa-blue-2019.zip" download="downloads/voa-blue-2019.zip"><img class="logo-tile" src="assets/png/voa-blue-2019.png" width="720" height="360" /></a></div>
+					<ul class="download-options">
+						<li class="download-label"><img src="img/fa-download_36_0_999999_none.png" width="18" height="18" alt="Download" /></li>
+						<li class="mini-download-button"><a href="assets/png/voa-blue-2019.png" download="assets/png/voa-blue-2019.png">.png</a></li>
+						<li class="mini-download-button"><a href="assets/ai/voa-blue-2019.ai" download="assets/ai/voa-blue-2019.ai">.ai</a></li>
+						<li class="mini-download-button"><a href="assets/psd/voa-blue-2019.psd" download="assets/psd/voa-blue-2019.psd">.psd</a></li>
+					</ul>
+				</div>
+				
+				<div class="grid-box">
+					<h3>White</h3>
+					<div style="border: 1px solid transparent;"><a href="assets/voa-logo-white-on-blue.psd" download="assets/voa-logo-white-on-blue.psd"><img class="logo-tile" src="assets/png/voa-white-2019.png" width="720" height="360" /></a></div>
+					<ul class="download-options">
+						<li class="download-label"><img src="img/fa-download_36_0_999999_none.png" width="18" height="18" alt="Download" /></li>
+						<li class="mini-download-button"><a href="img/voa-logo-white-on-blue_2x.png" download="img/voa-logo-white-on-blue_2x.png">.png</a></li>
+						<li class="mini-download-button"><a href="assets/ai/voa-logo-white-on-blue.ai" download="assets/ai/voa-logo-white-on-blue.ai">.ai</a></li>
+						<li class="mini-download-button"><a href="assets/psd/voa-logo-white-on-blue.psd" download="assets/psd/voa-logo-white-on-blue.psd">.psd</a></li>
+					</ul>
+				</div>
+				
+				<div class="grid-box">
+					<h3>Tricolor</h3>
+					<div style="border: 1px solid transparent;"><a href="assets/voa-tricolor-20190723.zip" download="assets/voa-tricolor-20190730.zip" title="Download VOA tricolor logo"><img class="logo-tile" src="assets/png/voa-tricolor-2019.png" width="720" height="360" alt="Tricolor VOA logo over VOA White background." /></a></div>
+					<ul class="download-options">
+						<li class="download-label"><img src="img/fa-download_36_0_999999_none.png" width="18" height="18" alt="Download" /></li>
+						<li class="mini-download-button"><a href="img/voa-logo-tricolor-on-white_2x.png" download="assets/png/voa-tricolor-2019.png">.png</a></li>
+						<li class="mini-download-button"><a href="assets/voa2019-tricolor.ai" download="assets/voa2019-tricolor.ai">.ai</a></li>
+						<li class="mini-download-button"><a href="assets/voa-logo-tricolor-on-white.psd" download="assets/voa-logo-tricolor-on-white.psd">.psd</a></li>
+					</ul>
+				</div>
+				
+				<div class="grid-box">
+					<h3>White on Black</h3>
+					<div style="border: 1px solid transparent;"><a href="assets/voa-logo-white-on-black.psd" download="assets/voa-logo-white-on-black.psd"><img class="logo-tile" src="img/voa-logo-white-on-black_2x.png" width="160" height="100" /></a></div>
+					<ul class="download-options">
+						<li class="download-label"><img src="img/fa-download_36_0_999999_none.png" width="18" height="18" alt="Download" /></li>
+						<li class="mini-download-button"><a href="img/voa-logo-white-on-black_2x.png" download="img/voa-logo-white-on-black_2x.png">.png</a></li>
+						<li class="mini-download-button"><a href="assets/voa-logo-white-on-black.ai" download="assets/voa-logo-white-on-black.ai">.ai</a></li>
+						<li class="mini-download-button"><a href="assets/voa-logo-white-on-black.psd" download="assets/voa-logo-white-on-black.psd">.psd</a></li>
+					</ul>
+				</div>
+				
+				<div class="grid-box">
+					<h3>Black on White</h3>
+					<div style="border: 1px solid transparent;"><a href="assets/voa-logo-black-on-white.psd" download="assets/voa-logo-black-on-white.psd"><img class="logo-tile" src="img/voa-logo-black-on-white_2x.png" width="160" height="100" /></a></div>
+					<ul class="download-options">
+						<li class="download-label"><img src="img/fa-download_36_0_999999_none.png" width="18" height="18" alt="Download" /></li>
+						<li class="mini-download-button"><a href="img/voa-logo-black-on-white_2x.png" download="img/voa-logo-black-on-white_2x.png">.png</a></li>
+						<li class="mini-download-button"><a href="assets/voa-logo-black-on-white.ai" download="assets/voa-logo-black-on-white.ai">.ai</a></li>
+						<li class="mini-download-button"><a href="assets/voa-logo-black-on-white.psd" download="assets/voa-logo-black-on-white.psd">.psd</a></li>
+					</ul>
+				</div>
+				
+			</div>
+			
+		</section>
+		
+		<section class="colors">
+			
+			<header class="instructions">
+				<h2>Official VOA Colors</h2>
+				<p>The three colors of the tricolor VOA logo are considered the official VOA brand colors. The VOA logo should not be displayed in VOA Gray or VOA Red, but it is appropriate to use these colors as accents in a design.</p>
+			</header>
+			
+			<div class="grid">
+				
+				<div class="grid-box">
+					<h3 class="bluetext">VOA Blue</h3>
+					<div class="color bluebg blueborder"></div>
+					<p class="hex"><span class="label">Hex:</span> #3a79b7</p>
+					<p class="rgb"><span class="label">RGB:</span> 58, 121, 183</p>
+					<p class="cmyk"><span class="label">CMYK:</span></p>
+				</div>
+				
+				<div class="grid-box">
+					<h3 class="graytext">VOA Gray</h3>
+					<div class="color graybg grayborder"></div>
+					<p class="hex"><span class="label">Hex:</span> #768492</p>
+					<p class="rgb"><span class="label">RGB:</span> 118, 132, 146</p>
+					<p class="cmyk"><span class="label">CMYK:</span></p>
+				</div>
+				
+				<div class="grid-box">
+					<h3 class="redtext">VOA Red</h3>
+					<div class="color redbg redborder"></div>
+					<p class="hex"><span class="label">Hex:</span> #c11d22</p>
+					<p class="rgb"><span class="label">RGB:</span> 193, 29, 34</p>
+					<p class="cmyk"><span class="label">CMYK:</span></p>
+				</div>
+
+				<div class="grid-box">
+					<h3>VOA White</h3>
+					<div class="color" style="background: #ebebeb; border: 1px solid #ebebeb;"></div>
+					<p class="hex"><span class="label">Hex:</span> #ebebeb</p>
+					<p class="rgb"><span class="label">RGB:</span> 235, 235, 235</p>
+					<p class="cmyk"><span class="label">CMYK:</span></p>
+				</div>
+				
+			</div>
+			
+		</section>
+		
+		<section class="alt-colors">
+			
+			<header class="instructions">
+				<h2>Additional Colors</h2>
+				<p>INSTRUCTIONS NEEDED</p>
+			</header>
+			
+			<div class="grid">
+
+				<div class="grid-box">
+					<h3>&nbsp;</h3>
+					<div class="color" style="background: #a6d0f4; border: 1px solid #a6d0f4;"></div>
+					<p class="hex"><span class="label">Hex:</span> #a6d0f4</p>
+					<p class="rgb"><span class="label">RGB:</span> 166, 208, 244</p>
+					<p class="cmyk"><span class="label">CMYK:</span></p>
+				</div>
+				
+				<div class="grid-box">
+					<h3>&nbsp;</h3>
+					<div class="color" style="background: #639cdc; border: 1px solid #639cdc;"></div>
+					<p class="hex"><span class="label">Hex:</span> #639cdc</p>
+					<p class="rgb"><span class="label">RGB:</span> 99, 156, 220</p>
+					<p class="cmyk"><span class="label">CMYK:</span></p>
+				</div>
+
+				<div class="grid-box">
+					<h3 class="bluetext">VOA Blue</h3>
+					<div class="color bluebg blueborder"></div>
+					<p class="hex"><span class="label">Hex:</span> #3a79b7</p>
+					<p class="rgb"><span class="label">RGB:</span> 58, 121, 183</p>
+					<p class="cmyk"><span class="label">CMYK:</span></p>
+				</div>
+				
+				<div class="grid-box">
+					<h3>&nbsp;</h3>
+					<div class="color" style="background: #0a5b96; border: 1px solid #0a5b96;"></div>
+					<p class="hex"><span class="label">Hex:</span> #0a5b96</p>
+					<p class="rgb"><span class="label">RGB:</span> 10, 91, 150</p>
+					<p class="cmyk"><span class="label">CMYK:</span></p>
+				</div>
+				
+			</div>
+			
+		</section>
+
+		<section class="alt-colors">
+			
+			<header class="instructions">
+				<p>It is acceptable to display the VOA logo over these five background colors, as long as you provide sufficient contrast between the logo and the background color. The tricolor and blue logos should not be shown on dark gray or black backgrounds.</p>
+			</header>
+			
+			<div class="grid">
+
+				<div class="grid-box">
+					<h3>&nbsp;</h3>
+					<div class="color" style="background: #dee5eb; border: 1px solid #dee5eb;"></div>
+					<p class="hex"><span class="label">Hex:</span> #dee5eb</p>
+					<p class="rgb"><span class="label">RGB:</span> 222, 229, 235</p>
+					<p class="cmyk"><span class="label">CMYK:</span></p>
+				</div>
+				
+				<div class="grid-box">
+					<h3>&nbsp;</h3>
+					<div class="color" style="background: #9eadbb; border: 1px solid #9eadbb;"></div>
+					<p class="hex"><span class="label">Hex:</span> #9eadbb</p>
+					<p class="rgb"><span class="label">RGB:</span> 158, 173, 187</p>
+					<p class="cmyk"><span class="label">CMYK:</span></p>
+				</div>
+
+				<div class="grid-box">
+					<h3 class="graytext">VOA Gray</h3>
+					<div class="color graybg grayborder"></div>
+					<p class="hex"><span class="label">Hex:</span> #768492</p>
+					<p class="rgb"><span class="label">RGB:</span> 118, 132, 146</p>
+					<p class="cmyk"><span class="label">CMYK:</span></p>
+				</div>
+				
+				<div class="grid-box">
+					<h3>&nbsp;</h3>
+					<div class="color" style="background: #4d5a67; border: 1px solid #4d5a67;"></div>
+					<p class="hex"><span class="label">Hex:</span> #4d5a67</p>
+					<p class="rgb"><span class="label">RGB:</span> 77, 90, 103</p>
+					<p class="cmyk"><span class="label">CMYK:</span></p>
+				</div>
+				
+				<div class="grid-box">
+					<h3>VOA Dark Gray</h3>
+					<div class="color" style="background: #222f3a; border: 1px solid #222f3a;"></div>
+					<p class="hex"><span class="label">Hex:</span> #222f3a</p>
+					<p class="rgb"><span class="label">RGB:</span> 34, 47, 58</p>
+					<p class="cmyk"><span class="label">CMYK:</span></p>
+				</div>
+				
+			</div>
+			
+		</section>
+		
+		<footer class="page-footer">
+			<p>This guide was last updated on July 22, 2019</p>
+		</footer>
+		
+	</main>
+	
+</body>
+</html>
