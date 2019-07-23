@@ -1,0 +1,280 @@
+/* http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 License: none (public domain) */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr,
+acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong,
+sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table,
+caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption,
+footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+
+
+$voablue: #3a79b7;
+.bluebg       { background: $voablue; }
+.bluetext          { color: $voablue; }
+.blueborder { border-color: $voablue; }
+
+$voagray: #768492;
+.graybg       { background: $voagray; }
+.graytext          { color: $voagray; }
+.grayborder { border-color: $voagray; }
+
+$voared: #c11d22;
+.redbg        { background: $voared; }
+.redtext           { color: $voared; }
+.redborder         { color: $voared; }
+
+$white:    #fff;
+$offwhite: #fcfcfc;
+$ultgray:  #eee;
+$vltgray:  #ddd;
+$ltgray:   #999;
+$midgray:  #666;
+$dkgray:   #222f3a;
+
+
+html {
+	font-size: 100%;
+}
+
+body {
+	background: $offwhite;
+	color: $dkgray;
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.35;
+	margin: 1rem 0;
+}
+
+img { display: block; }
+
+h1, h2, h3, h4 { font-weight: 800; }
+
+h1 { font-size: 2.4rem; margin-bottom: 0; }
+h2 { font-size: 1.6rem; margin:  .8rem 0; }
+h3 { font-size: 1rem; margin:  .5rem 0; }
+h4 { font-size: 1rem;   margin:  .5rem 0; }
+
+p { font-size: .9rem; margin: 0 0 .9rem 0; }
+
+a { color: $voablue; }
+
+.print-only {
+	display: none;
+}
+
+.printable-pdf {
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 2.4rem !important;
+	vertical-align: text-top;
+}
+
+.printable-pdf > a {
+	vertical-align: text-top;
+}
+
+.guide,
+.page-title {
+	margin: 0 1rem;
+	max-width: calc(100% - 2rem);
+	width: 100%;
+}
+
+section,
+.page-title {
+	margin-bottom: 3rem;
+}
+
+.grid {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.page-title > *,
+.instructions {
+	padding: 0 .5rem;
+}
+
+.grid-box {
+	flex: 1 1 0;
+	margin-bottom: 1rem;
+	padding: 0 .5rem;
+}
+
+.grid-box > p {
+	margin: 0 0 .25rem 0;
+}
+
+.color {
+	border-style: solid;
+	border-width: 1px;
+	height: 4rem;
+	margin-bottom: .25rem;
+}
+
+.grid-box > p > .label {
+	color: $ltgray;
+	display: inline-block;
+	text-transform: uppercase;
+	width: 3rem;
+}
+
+// .subtle {
+// 	color: $ltgray;
+// 	font-size: .8rem;
+// 	margin-top: .2rem;
+// }
+
+.logos img.logo-tile {
+	height: auto;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.download-button {
+	display: block;
+	line-height: 2.25rem;
+}
+
+.download-button > a {
+	background: $white;
+	border: 2px solid $voablue;
+	border-radius: .25rem;
+	color: $voablue;
+	padding: .25rem .5rem;
+	text-decoration: none;
+}
+
+.download-button > a:hover {
+	background: $voablue;
+	color: $white;
+}
+
+
+.download-options {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-top: .75rem;
+}
+
+.download-options > li {
+	xxxxmargin: 0 .25rem;
+}
+
+.download-label {
+	display: inline-block;
+}
+
+.mini-download-button {
+	display: inline-block;
+	font-size: .8rem;
+	xxxxtext-transform: uppercase;
+}
+
+.mini-download-button > a {
+	background: $white;
+	color: $voablue;
+	border: 1px solid $vltgray;
+	border-radius: .25rem;
+	padding: .15rem .5rem .25rem .5rem;
+	text-decoration: none;
+}
+
+.mini-download-button > a:hover {
+	background: $voablue;
+	border: 1px solid $voablue;
+	color: $white;
+}
+
+.page-footer {
+	border-top: 2px solid $vltgray;
+	padding: .5rem;
+}
+
+.contact-us {
+	margin: 2rem 0 0 0;
+}
+
+
+
+
+
+@media (min-width: 450px) {
+	
+	.download-button {
+		display: inline-block;
+		margin-left: 2rem;
+	}
+		
+}
+
+
+
+
+
+@media (min-width: 600px) {
+	
+	.guide {
+		margin: 0 auto;
+		max-width: 960px;
+	}
+	
+	.page-title {
+		margin: 0 auto 4rem auto;
+		max-width: 960px;
+	}
+	
+	.grid {
+		flex-direction: row;
+	}
+}
+
+
+
+
+
+@media print {
+	
+	body { background: none; margin-top: 0; margin-bottom: 0; }
+	
+	section { margin-bottom: 1.25rem; }
+	
+	.page-title { margin-bottom: 2.5rem; }
+	
+	.contact-us { margin: 1.5rem 0 0 0; }
+	
+	h1 { font-size: 2.2rem; margin-bottom: 0; }
+	h2 { font-size: 1.2rem; margin:  0; }
+	h3 { font-size: .8rem; margin:  0 0 .2rem 0; }
+	h4 { font-size: .8rem;   margin:  0 0 .2rem 0; }
+
+	p { font-size: .8rem; margin: 0 0 .8rem 0; }
+	
+	.download-button,
+	.download-text { 
+		display: none;
+	}
+	
+	.download-options { display: none; }
+	
+	.print-only { display: block; }
+	
+	.print-page-url {
+		color: $midgray;
+		font-size: .8rem;
+		font-weight: 400;
+	}
+	
+}
