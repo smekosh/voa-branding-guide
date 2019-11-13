@@ -15,17 +15,19 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; content: n
 table { border-collapse: collapse; border-spacing: 0; }
 
 
-$voablue: #1330bf;
+$voablue: #3a79b7;
 .blue { background: $voablue; }
 .bluetext { color: $voablue; }
 
-$voagray: #919191;
+$voagray: #768492;
 .gray { background: $voagray; }
 .graytext { color: $voagray; }
 
-$voared: #d41010;
+$voared: #c11d22;
 .red { background: $voared; }
 .redtext { color: $voared; }
+
+$voadkblue: #0a5b96;
 
 $white:    #fff;
 $offwhite: #fcfcfc;
@@ -33,7 +35,7 @@ $ultgray:  #eee;
 $vltgray:  #ddd;
 $ltgray:   #999;
 $midgray:  #666;
-$dkgray:   #333;
+$dkgray:   #222f3a;
 
 
 html {
@@ -60,6 +62,9 @@ h3 { font-size: 1.2rem; margin:  .6rem 0; }
 h4 { font-size: 1rem;   margin:  .5rem 0; }
 
 p { font-size: 1rem; margin: 0 0 1rem 0; }
+
+p > a { color: $voablue; }
+p > a:hover { color: $voadkblue; }
 
 .print-only {
 	display: none;
